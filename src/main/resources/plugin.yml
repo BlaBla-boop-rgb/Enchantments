@@ -1,0 +1,17 @@
+name: Effizienz10
+version: '${version}'
+main: de.effizienz10.Effizienz10Plugin
+api-version: '1.21'
+description: Erlaubt Effizienz-Bücher bis Stufe 10
+commands:
+  effbook:
+    description: Gibt ein Effizienz-Buch oder lädt die Config neu
+    usage: /effbook [stufe] [spieler] | /effbook reload
+    aliases: [eff10]
+permissions:
+  effizienz10.give:
+    description: Effizienz-Bücher per Befehl geben
+    default: op
+  effizienz10.reload:
+    description: Config neu laden
+    default: op

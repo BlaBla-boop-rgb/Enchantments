@@ -1,0 +1,13 @@
+# Höchste Effizienz-Stufe, die das Plugin erlaubt
+max-level: 10
+
+anvil:
+  # Höhere Stufen als V im Amboss erlauben
+  enabled: true
+  # Zwei gleiche Bücher ergeben die nächste Stufe (V+V=VI ... IX+IX=X)
+  # Auf false: Effizienz X gibt es nur per /effbook
+  combine-books: true
+  # XP-Kosten = Stufe x diesem Wert (X -> 30 Level)
+  xp-cost-per-level: 3
+  # Obergrenze; unter 40 bleiben, sonst zeigt der Client "Zu teuer!"
+  max-xp-cost: 39
